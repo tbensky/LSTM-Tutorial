@@ -16,3 +16,5 @@ As a sample, here's a plot of the x-coordinate of the first 4 particles as a fun
 
 ![Sample plot](https://github.com/tbensky/LSTM-Tutorial/blob/main/sample.png)
 
+We'd like to see if a trained LSTM can render a smooth line through these data points.
+
