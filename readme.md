@@ -1,6 +1,6 @@
 # Training an LSTM on classical physics motion data
 
-This is a tutorial on how to train an LSTM neural network on a large, complex set of time domain data.
+This is a tutorial on how to train an LSTM neural network on a large, complex set of time domain data. By "train an LSTM," we wish to see if an LSTM can produce a smooth curve going through each of many parameters in the data file, as a function of time. 
 
 ## Summary
 
