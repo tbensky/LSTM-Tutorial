@@ -10,3 +10,5 @@ We have a data file of 3,156 lines. Each line is formatted as follows:
 
 * The rest of the 100 columns are 25 groups of 4 floating point values, which are `x,y,vx,vy` of a classical moving particle. In other words, the `(x,y)` position and x and y coordinates of the particle's speed.
 
+In other words, each line captures a snapshot of the position and speed of 25 particles at a given time.
+
