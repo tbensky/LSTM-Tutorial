@@ -40,8 +40,7 @@ plt.plot(t,y4,'.')
 plt.ylabel("x")
 plt.title("Particle 3")
 
-plt.tight_layout()
 plt.xlabel("Time")
-
+plt.tight_layout()
 plt.savefig("sample.png",dpi=300)
 plt.close()
