@@ -12,3 +12,7 @@ We have a data file of 3,156 lines. Each line is formatted as follows:
 
 In other words, each line captures a snapshot of the position and speed of 25 particles at a given time.  The advancing lines (and times), reflect subsequent snapshots of future times of this system.
 
+As a sample, here's a plot of the x-coordinate of the first 4 particles as a function of the first 100 time steps.
+
+![Sample plot](https://github.com/tbensky/LSTM-Tutorial/blob/main/sample.png)
+
