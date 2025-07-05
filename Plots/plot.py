@@ -15,6 +15,8 @@ for line in data:
         for p in range(N):
             y[p].append(line[1+p*4])
 
+plt.rcParams['figure.figsize'] = [6, 2]
+
 for p in range(N):
     plt.plot(t,y[p],'.')
     plt.ylabel("x")
