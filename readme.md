@@ -1,6 +1,6 @@
 # Training an LSTM on classical physics motion data
 
-This is a tutorial on how to train an LSTM neural network on a large, complex set of time domain data. By "train an LSTM," we wish to see if an LSTM can produce a smooth curve going through each of many parameters in the data file, as a function of time. 
+This is a tutorial on how to train an LSTM neural network on a large, complex set of time domain data. By "train an LSTM," we wish to see if an LSTM can produce a smooth curve going through each of many time-dependent parameters in the data file. 
 
 ## Summary
 
@@ -17,4 +17,9 @@ As a sample, here's a plot of the x-coordinate of the first 4 particles as a fun
 ![Sample plot](https://github.com/tbensky/LSTM-Tutorial/blob/main/sample.png)
 
 We'd like to see if a trained LSTM can render a smooth line through these data points.
+
+![p0](https://github.com/tbensky/LSTM-Tutorial/blob/main/Plots/p0.png)
+![p1](https://github.com/tbensky/LSTM-Tutorial/blob/main/Plots/p1.png)
+![p2](https://github.com/tbensky/LSTM-Tutorial/blob/main/Plots/p2.png)
+![p3](https://github.com/tbensky/LSTM-Tutorial/blob/main/Plots/p3.png)
 
